@@ -141,10 +141,10 @@ format-disconnected =
 type = internal/date
 interval = 1
 
-date = %A-%B-%d-%Y"
+date = %A %B %d %Y
 ;date-alt = " %B-%m-%d"
 
-time = %I:%M:%S
+time = %I:%M:%S%X
 ;time-alt = %H:%M:%S
 
 format-prefix = 
