@@ -197,6 +197,6 @@ margin-bottom = 5
 [module/logo]
 type = custom/text
 content = 
-content-background = #000
-content-foreground = #fff
+content-background = #FF0000
+content-foreground = #001FFD
 content-padding = 4
