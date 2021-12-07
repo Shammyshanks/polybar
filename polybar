@@ -195,4 +195,4 @@ margin-bottom = 5
 
 [module/logo]
 type = custom/text
-content = Some random label
+content = 
