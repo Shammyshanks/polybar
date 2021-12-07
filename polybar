@@ -139,13 +139,13 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 1
 
-date =
-date-alt = " %Y-%m-%d"
+date = %A-%B-%d-%Y"
+;date-alt = " %B-%m-%d"
 
-time = %h:%M:%S
-time-alt = %H:%M:%S
+time = %I:%M:%S
+;time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground}
