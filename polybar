@@ -55,7 +55,7 @@ font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
-modules-left = xworkspaces
+modules-left = logo xworkspaces
 modules-center =  date
 modules-right = battery 
 
@@ -193,6 +193,6 @@ margin-bottom = 5
 ; vim:ft=dosini
 
 
-[module/Logo]
+[module/logo]
 type = custom/text
 content = Some random label
