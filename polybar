@@ -191,3 +191,8 @@ margin-top = 5
 margin-bottom = 5
 
 ; vim:ft=dosini
+
+
+[module/Logo]
+type = custom/text
+content = Some random label
