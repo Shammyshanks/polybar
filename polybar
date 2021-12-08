@@ -62,8 +62,8 @@ font-2 = siji:pixelsize=10;1
 font-3 = Hack Nerd Font Mono:size=23;3
 
 modules-left = logo ewmh
-modules-center =  date
-modules-right = wlan battery 
+modules-center = date
+modules-right = battery wlan eth
 
 ;filesystem xbacklight alsa xkeyboard memory cpu wlan eth battery temperature date powermenu
 
@@ -218,9 +218,7 @@ enable-click = false
 ; Create scroll handlers used to cycle desktops
 ; Default: true
 enable-scroll = false
-icon-0 = code;♚
-icon-1 = office;♛
-icon-2 = graphics;♜
-icon-3 = mail;♝
-icon-4 = web;♞
-icon-default = ♟
+label-active = %icon% %name%
+label-active-foreground = ${colors.foreground}
+label-active-underline = ${colors.purple}
+label-active-padding = 2
