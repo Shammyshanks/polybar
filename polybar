@@ -56,7 +56,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = Hack Nerd Font Mono:size=16;3
 
-modules-left = logo xworkspaces
+modules-left = logo ewmh
 modules-center =  date
 modules-right = battery 
 
@@ -200,3 +200,28 @@ content = 
 content-background = #FF0000
 content-foreground = #001FFD
 content-padding = 4
+
+[module/ewmh]
+type = internal/xworkspaces
+
+; Only show workspaces defined on the same output as the bar
+;
+; Useful if you want to show monitor specific workspaces
+; on different bars
+;
+; Default: false
+pin-workspaces = true
+
+; Create click handler used to focus desktop
+; Default: true
+enable-click = false
+
+; Create scroll handlers used to cycle desktops
+; Default: true
+enable-scroll = false
+icon-0 = code;♚
+icon-1 = office;♛
+icon-2 = graphics;♜
+icon-3 = mail;♝
+icon-4 = web;♞
+icon-default = ♟
