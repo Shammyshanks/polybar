@@ -63,7 +63,7 @@ font-3 = Hack Nerd Font Mono:size=23;3
 
 modules-left = logo ewmh
 modules-center =  date
-modules-right = battery 
+modules-right = wlan battery 
 
 ;filesystem xbacklight alsa xkeyboard memory cpu wlan eth battery temperature date powermenu
 
@@ -102,7 +102,7 @@ bar-fill-font = 2
 bar-fill-foreground = #9f78e1
 bar-empty = ─
 bar-empty-font = 2
-bar-empty-foreground = ${colors.foreground-alt}
+bar-empty-foreground = ${colors.foreground}
 
 
 [module/wlan]
@@ -111,7 +111,7 @@ interface = net1
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
+format-connected-underline = ${colors.green}
 label-connected = %essid%
 
 format-disconnected =
