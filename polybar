@@ -17,19 +17,29 @@
 ;==========================================================
 
 [colors]
-background = #fdf6e3
+background = ${xrdb:background}
+highlight  = ${xrdb:color1}
+grey       = ${xrdb:color4}
+;background = #fdf6e3
 background-alt = #3c3836
-foreground = #002b36
+;foreground = #002b36
+foreground = ${xrdb:foreground}
 foreground-alt = #a89984
 primary = #d65d0e
 secondary = #98971a
 alert = #bd2c40
-red = #dc322f
-green = #859900
-yellow = #b58900
-blue = #268bd2
-purple = #d33682
-aqua = #2aa198
+red = ${xrdb:color1}
+green = ${xrdb:color2}
+yellow = ${xrdb:color3}
+blue = ${xrdb:color4}
+purple = ${xrdb:color5}
+aqua = ${xrdb:color6}
+;red = #dc322f
+;green = #859900
+;yellow = #b58900
+;blue = #268bd2
+;purple = #d33682
+;aqua = #2aa198
 orange = #cb4b16
 
 [bar/example]
