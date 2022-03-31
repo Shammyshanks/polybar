@@ -18,8 +18,8 @@
 
 [colors]
 background = ${xrdb:background}
-highlight  = ${xrdb:color1}
-grey       = ${xrdb:color4}
+highlight = ${xrdb:color1}
+grey = ${xrdb:color4}
 ;background = #fdf6e3
 background-alt = #3c3836
 ;foreground = #002b36
